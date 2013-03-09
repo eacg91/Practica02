@@ -1,0 +1,8 @@
+#linea	Etiqueta	CODOP 		Operando
+   1			 ORG		 %00001111
+   2	Et1		 equ		 $ffFF
+   3	dos		 LDAA		 @4732
+   4			 SWI
+   5			 DS.b		 %0011000011111100
+   6	tres		 sWi
+   7			 End
