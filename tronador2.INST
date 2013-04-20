@@ -1,0 +1,6 @@
+#linea Etiqueta  CODOP  Operando  Direccionamiento
+   0	NULL      ORG    %00001111 []
+   1	ET1       EQU    $ffFF     []
+   2	DO*S      LDAA   @4732     [IMM, DIR, EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]]
+   3	NULL      SWI    NULL      [null]
+   4	SEFOPR_+  DS.B   %0011000011111100[]

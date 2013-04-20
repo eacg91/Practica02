@@ -1,0 +1,6 @@
+#linea Etiqueta  CODOP  Operando Direccionamiento
+   0	NULL      ORG    $AB       []
+   1	ET1       SWI    NULL      [null]
+   2	NULL      ADCA   1,X       [IMM]
+   3	NULL      BRA    ET1       [REL]
+   4	NULL      END
